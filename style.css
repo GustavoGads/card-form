@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    height: 53px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 12px;
+
+    background-color: #262626;
+}
+
+header h1 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+section img {
+    display: block;
+    margin: 43px auto 0;
+}
+
+form {
+   margin: 40px 27px;
+
+   display: flex;
+   flex-direction: column;
+
+   gap: 14px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+}
+
+.input label {
+    color: #868686;
+    font-family: Inter;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#inputs-juntos {
+    display: flex;
+    gap: 16px;
+}
+
+#inputs-juntos input {
+    width: 100%;
+}
+
+#inputs-juntos .input {
+    position: relative;
+}
+
+#inputs-juntos .input img {
+    width: 15px;
+
+    position: absolute;
+    right: 0;
+    bottom: 7px;
+}
+
+
+.input input {
+    height: 31px;
+    border: none;
+    border-bottom: 2px solid #526DFF;
+
+    outline: none;
+}
+
+.input input:focus {
+    border-bottom: #262626 solid 2px;
+}
+
+button {
+    margin: 46px auto 0;
+    width: 182px;
+    padding: 6px 0;
+
+    border: none;
+    
+    background: #01C0A6;
+    box-shadow: 4px 3px 15px 0px rgba(0, 0, 0, 0.25);
+
+    color: #FFF;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+footer {
+    margin: 0 auto;
+    text-align: center;
+    width: 140px;
+}
+
+footer p {
+    color: #868686;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

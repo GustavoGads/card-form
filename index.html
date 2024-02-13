@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon/BG-CARD.svg">
+    <title>Adicione seu cartão</title>
+</head>
+<body>
+
+    <header>
+        <img src="assets/icons/arrow-left.svg" alt="Icone se seta para esquerda">
+        <h1>Adicione um novo cartão</h1>
+    </header>
+
+    <main>
+
+        <section>
+            <img src="assets/img/cartão.png" alt="Imagem do cartão de crédito.">
+        </section>
+
+        <form action="#">
+
+            <div class="input">
+                <label for="num-card">
+                    Número do cartão
+                </label>
+                <input id="num-card" name="num-card" type="number" required>
+            </div>
+
+            <div id="inputs-juntos">
+                <div class="input">
+                    <label for="cvv">
+                        CVV
+                    </label>
+                    <input id="cvv" name="cvv" type="number" required>
+                    <img src="assets/icons/Icone-Interrogação.svg" alt="">
+                </div>
+                <div class="input">
+                    <label for="validade">
+                        Validade
+                    </label>
+                    <input id="valide" name="validade" type="number" required>
+                    <img src="assets/icons/Icone-Interrogação.svg" alt="">
+                </div>
+            </div>
+
+            <div class="input">
+                <label for="name-card">
+                    Nome do cartão
+                </label>
+                <input id="name-card" name="name-card" type="text" required>
+            </div>
+
+            <button>Próximo</button>
+
+        </form>
+
+        <footer>
+            <img src="assets/icons/vector.png" alt="Icone de um vector.svg">
+            <p>Protegemos seus dados</p>
+        </footer>
+
+    </main>
+    
+</body>
+</html>
