@@ -5,7 +5,10 @@
 }
 
 body {
+    max-width: 500px;
     height: 100vh;
+
+    margin: auto;
 }
 
 header {
@@ -59,6 +62,7 @@ form {
 
 #inputs-juntos {
     display: flex;
+    justify-content: space-between;
     gap: 16px;
 }
 
@@ -67,6 +71,7 @@ form {
 }
 
 #inputs-juntos .input {
+    width: 100%;
     position: relative;
 }
 
