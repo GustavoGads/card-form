@@ -32,10 +32,50 @@ header h1 {
     line-height: normal;
 }
 
-section img {
-    display: block;
-    margin: 43px auto 0;
+section {
+    margin-top: 43px;
+    display: flex;
+    justify-content: center;
 }
+
+.ancora-card img {
+    display: block;
+}
+
+.ancora-card {
+    width: fit-content;
+    position: relative;
+}
+
+.ancora-card span {
+    color: #fff;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    left: 20px;
+}
+
+#print-numero {
+    top: 53px;
+}
+
+#print-cvv {
+    bottom: 40px;
+}
+
+#print-validade {
+    bottom: 40px;
+    right: 28px;
+    left: unset;
+}
+
+#print-nome {
+    bottom: 14px;
+}
+
 
 form {
    margin: 40px 27px;

@@ -9,9 +9,6 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="assets/favicon/BG-CARD.svg">
 
-    <script>
-        alert('!ATENÇÃO! Em hipótese alguma coloque seus dados reais neste site. Preserve sua segurança digital!')
-    </script>
     <title>Adicione seu cartão</title>
 </head>
 <body>
@@ -24,7 +21,13 @@
     <main>
 
         <section>
-            <img src="assets/img/cartão.png" alt="Imagem do cartão de crédito.">
+            <div class="ancora-card">
+                <img src="assets/img/cartão-null.svg" alt="Imagem do cartão de crédito.">
+                <span id="print-numero">123 *** *** ***</span>
+                <span id="print-cvv">***</span>
+                <span id="print-validade">**/**</span>
+                <span id="print-nome">***********</span>
+            </div>
         </section>
 
         <form action="#">
@@ -33,7 +36,7 @@
                 <label for="num-card">
                     Número do cartão
                 </label>
-                <input id="num-card" name="num-card" type="number" required>
+                <input id="num-card" name="num-card" type="number" oninput="printarNumeroCartao(this)" required autofocus maxlength="16">
             </div>
 
             <div id="inputs-juntos">
@@ -71,5 +74,6 @@
 
     </main>
     
+    <script src="script.js"></script>
 </body>
 </html>
